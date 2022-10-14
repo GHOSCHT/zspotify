@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "clspotify"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ffmpy = "^0.3.0"
+librespot = {url = "https://github.com/kokarare1212/librespot-python/archive/refs/heads/rewrite.zip"}
+music-tag = "^0.4.3"
+pillow = "^9.2.0"
+protobuf = "3.20.1"
+tabulate = "^0.9.0"
+tqdm = "^4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
