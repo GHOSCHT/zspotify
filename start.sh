@@ -7,5 +7,5 @@ if [ $# -eq 0 ]
 fi
 
 poetry run python zspotify $1
-loudgain -I4 -S -r -k -s e ./Spotify/rec/*/*.m4a
-loudgain -I4 -S -r -k -s e ./Spotify/rec/*/*.mp3
+loudgain -I4 -S -r -k -s e /mnt/d/Musik/Spotify/rec/*/*.m4a
+loudgain -I4 -S -r -k -s e /mnt/d/Musik/Spotify/rec/*/*.mp3
